@@ -1,0 +1,38 @@
+@import './_normalize.css';
+@import './_menu.css';
+@import './_wpstyles.css';
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --theme-color: #ffc0ff;
+  --alt-color: #74ffd9;
+  --menu-bg: #006400;
+  --page-background: #ffffff;
+  --text-color: #333333;
+
+  --padding: 20px;
+}
+
+body {
+  background: var(--theme-color);
+  font-family: 'Montserrat';
+  line-height: 1.6em;
+  color: #333333;
+}
+
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 800px;
+  max-width: 100%;
+  margin: var(--padding) auto;
+  background: var(--page-background);
+  padding: var(--padding);
+}
